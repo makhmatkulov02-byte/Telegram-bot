@@ -6,7 +6,7 @@ from moviepy import VideoFileClip  # type: ignore #Videoni ochish, audio ajratis
 
 # 2-bosqich > Botni telegramga ulash
 TOKEN = (
-    "8589379335:AAErglSSswkOjpkYKjhY7PPbYGWmcITSzWE"  # BotFather bergan maxfiy kalit
+    "8589379335:AAH4Np7N1sAs20QRAQwP1ElkFBSK5QfYDxo"  # BotFather bergan maxfiy kalit
 )
 bot = telebot.TeleBot(TOKEN)  # botni Telegram serveriga ulaydi
 
@@ -57,6 +57,7 @@ def video_to_audio(message):
 # 10-QISM: BOTNI ISHGA TUSHIRISH
 print("Starting the bot  ...")
 bot.polling()
+
 
 
 
